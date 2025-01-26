@@ -10,24 +10,24 @@ Conteúdo
    :maxdepth: 2
    :caption: Estrutura do Projeto:
 
+   app
    routes
    utils
-   static
-   templates
+   modules
 
 Módulos
 -------
 
 Rotas
 ~~~~~
-.. automodule:: my_flask_project.routes.main
+.. automodule:: routes.main
    :members:
    :undoc-members:
    :show-inheritance:
 
 Utilitários
 ~~~~~~~~~~~
-.. automodule:: my_flask_project.utils.helper
+.. automodule:: utils.helper
    :members:
    :undoc-members:
    :show-inheritance:
@@ -40,4 +40,3 @@ Templates e Estáticos
 Informações Adicionais
 ----------------------
 Este projeto foi desenvolvido com a estrutura básica para aplicações Flask e pode ser expandido para funcionalidades mais complexas.
-
