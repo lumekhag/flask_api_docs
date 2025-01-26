@@ -1,0 +1,2 @@
+flask==2.3.3  # Framework web em Python, versão 2.3.3
+

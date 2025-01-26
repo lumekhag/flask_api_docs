@@ -1,0 +1,31 @@
+
+/*
+Estilização geral para o corpo da página (body).
+
+Seleção: body
+Descrição: Define o estilo base para a página, incluindo fonte, cor de fundo,
+           alinhamento central e preenchimento.
+
+Propriedades:
+  - font-family: Define a fonte padrão como Arial, com fallback para sans-serif.
+  - background-color: Define a cor de fundo como um tom claro (#f4f4f9).
+  - margin: Remove as margens externas padrão do body.
+  - padding: Remove o preenchimento interno padrão do body.
+  - display: Flexbox é usado para facilitar o alinhamento central do conteúdo.
+  - justify-content: Centraliza horizontalmente o conteúdo no container.
+  - align-items: Centraliza verticalmente o conteúdo no container.
+  - height: Define a altura total do body para 100% da altura da viewport (100vh).
+  - color: Define a cor padrão do texto para um tom de cinza escuro (#333).
+*/
+body {
+    font-family: Arial, sans-serif; /* Define a fonte principal da página */
+    background-color: #f4f4f9; /* Define a cor de fundo clara */
+    margin: 0; /* Remove as margens padrão */
+    padding: 0; /* Remove o preenchimento padrão */
+    display: flex; /* Ativa o layout flexível para centralização */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    height: 100vh; /* Define a altura para preencher a viewport */
+    color: #333; /* Define a cor do texto em cinza escuro */
+}
+
